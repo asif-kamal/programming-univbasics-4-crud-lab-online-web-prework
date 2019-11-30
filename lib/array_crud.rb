@@ -7,8 +7,8 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  beatles = ["John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"] 
-  beatles << "nala cat"
+  array = ["John Lennon", "Paul McCartney", "Ringo Starr", "George Harrison"] 
+  array << "nala cat"
 end
 
 def add_element_to_start_of_array(array, element)
